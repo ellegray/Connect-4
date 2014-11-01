@@ -1,0 +1,25 @@
+﻿<Window x:Class="Dg2894_Connect4.GameWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="GameWindow" Height="722.951" Width="640.465">
+    <Grid x:Name="myGrid" Background="Black" HorizontalAlignment="Left" Width="630">
+        <Button x:Name="one" Content="Drop" HorizontalAlignment="Left" Margin="43,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="one_Click" Foreground="Black"/>
+        <Button x:Name="two" Content="Drop" HorizontalAlignment="Left" Margin="122,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="two_Click"/>
+        <Button x:Name="three" Content="Drop" HorizontalAlignment="Left" Margin="202,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="three_Click"/>
+        <Button x:Name="four" Content="Drop" HorizontalAlignment="Left" Margin="283,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="four_Click"/>
+        <Button x:Name="five" Content="Drop" HorizontalAlignment="Left" Margin="360,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="five_Click"/>
+        <Button x:Name="six" Content="Drop" HorizontalAlignment="Left" Margin="441,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="six_Click"/>
+        <Button x:Name="seven" Content="Drop" HorizontalAlignment="Left" Margin="521,105,0,0" VerticalAlignment="Top" Width="56" Background="White" Click="seven_Click"/>
+        <TextBlock HorizontalAlignment="Left" Margin="202,4,0,0" TextWrapping="Wrap" Text="Connect 4" VerticalAlignment="Top" Foreground="#FF48C1CD" FontFamily="Kozuka Gothic Pro EL" FontSize="48"/>
+        <Button x:Name="startOver" Content="Start Over" HorizontalAlignment="Left" Height="30" Margin="155,637,0,0" VerticalAlignment="Top" Width="100" Background="White" BorderBrush="Black" Click="startOver_Click"/>
+        <Label x:Name="P1WinsLabel" Content="B WINS" HorizontalAlignment="Left" Height="32" Margin="43,16,0,0" VerticalAlignment="Top" Width="140" Foreground="White" FontFamily="Kozuka Gothic Pro EL" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.481,0.148" FontSize="20" Padding="0"/>
+        <Label x:Name="P2WinsLabel" Content="Y WINS" HorizontalAlignment="Left" Height="42" Margin="437,16,0,0" VerticalAlignment="Top" Width="140" Foreground="White" FontFamily="Kozuka Gothic Pro EL" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" RenderTransformOrigin="0.481,0.148" FontSize="20" Padding="0"/>
+        <Label x:Name="P1Wins" Content="0" HorizontalAlignment="Left" Height="39" Margin="69,43,0,0" VerticalAlignment="Top" Width="87" FontFamily="Kozuka Gothic Pro EL" FontSize="22" Padding="0" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Label x:Name="P2Wins" Content="0" HorizontalAlignment="Left" Height="39" Margin="463,43,0,0" VerticalAlignment="Top" Width="87" FontFamily="Kozuka Gothic Pro EL" FontSize="22" Padding="0" HorizontalContentAlignment="Center" Foreground="White"/>
+        <Button x:Name="ClearScores" Content="Clear Scores" HorizontalAlignment="Left" Height="30" Margin="260,637,0,0" VerticalAlignment="Top" Width="103" Click="ClearScores_Click" Background="White" BorderBrush="Black"/>
+        <Ellipse x:Name="BlueTurn" Fill="Black" HorizontalAlignment="Left" Height="40" Margin="104,627,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Ellipse x:Name="YellowTurn" Fill="Black" HorizontalAlignment="Left" Height="40" Margin="483,627,0,0" Stroke="Black" VerticalAlignment="Top" Width="40"/>
+        <Button x:Name="endGame" Content="End Game" HorizontalAlignment="Left" Height="30" Margin="368,637,0,0" VerticalAlignment="Top" Width="103" Click="EndGame_Click" Background="White" BorderBrush="Black"/>
+    </Grid>
+</Window>
+

@@ -1,0 +1,10 @@
+﻿<Window x:Class="Dg2894_Connect4.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="MainWindow" Height="722.951" Width="640.465">
+    <Grid x:Name="myGrid" Background="Black" HorizontalAlignment="Left" Width="630">
+        <TextBlock HorizontalAlignment="Left" Margin="143,92,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Foreground="White" FontFamily="Kozuka Gothic Pro EL" FontSize="72" Height="128" Width="331"><Run Text="Connect 4"/></TextBlock>
+        <Button x:Name="OnePlayer" Content="Single Player" HorizontalAlignment="Left" Margin="250,311,0,0" VerticalAlignment="Top" Width="139" Height="30" Background="White" Click="OnePlayer_Click"/>
+        <Button x:Name="TwoPlayer" Content="Two Player" HorizontalAlignment="Left" Margin="250,356,0,0" VerticalAlignment="Top" Width="139" Height="30" Click="TwoPlayer_Click" Background="White"/>
+    </Grid>
+</Window>
